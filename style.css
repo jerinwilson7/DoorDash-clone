@@ -191,12 +191,14 @@ header{
 .login-contianer img{
     height: 16px;
     width: 16px;
+
     
 }
 
 .login-contianer p{
     font-family: norms-bold;
     font-size: 14px;
+    
 }
 
 .signin-text{
@@ -208,6 +210,89 @@ header{
 }
 
 
+.playstore-section{
+    display: flex;
+    background: #f7f7f7;
+    border: 1px solid #f7f7f7;
+    border-radius: 15px;
+    box-shadow: 0px 0px 3px #ccc;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 20px;
+    width: 360px;
+    height: 148px;
+    column-gap: 8px;
+    max-width: 400px;
+    box-shadow: 0px 0px 3px #ccc;
+}
+
+.doordash-logo{
+    background: white;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #f0eeee;
+    border-radius: 14px;
+    margin-top: -1px;
+}
+
+.doordash-logo img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    margin: 8px;
+}
+
+.playstore-container{
+    margin-top: 4px;
+    line-height: 22px;
+}
+
+.playstore-container h3{
+    font-family: norms-bold;
+    font-size: 14px;
+    font-weight: 500;
+    color: #767676;
+}
+
+.playstore-container h2{
+    font-size: 18px;
+    font-family: norms-bold;
+    margin-bottom: 4px;
+    margin-top: -3px;
+}
+
+.get-app-btn{
+    display: flex;
+    border: 1px solid #eb1700;
+    border-radius: 24px;
+    width: 124.23px;
+    background: #eb1700;
+    height: 32px;
+    margin-top: 8px;
+    column-gap: 4px;
+}
+
+.get-app-btn p{
+    font-family: norms-bold;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-left: 10px;
+}
+
+.get-app-btn img{
+    display: flex;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    transform: translateY(7px);
+
+}
+/* Tablet Responsive */
 
 @media screen and (min-width: 768px){
 .header-div{
@@ -302,8 +387,11 @@ br{
     display: inline-block;
 }
 
+.playstore-section{
+    display: none;
 }
 
+}
 
 /* Laptop view */
 
@@ -371,7 +459,7 @@ br{
     .enter-btn-white{
        display: flex;
        background: #eb1700;
-       padding: 9px;
+       padding: 11px;
        border-radius: 25px;
        border: 1px solid #eb1700;
        transform: translatex(40px);
