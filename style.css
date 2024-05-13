@@ -704,6 +704,118 @@ header {
     white-space: nowrap;
 }
 
+.store-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 90%;
+  -webkit-box-align: center;
+  padding: 20px;
+}
+
+.store-img-desktop{
+    display: none;
+}
+
+.store-img{
+    width: 100%;
+}
+
+.store-img img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.store-contents-container{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.store-contents-container h2{
+    color: #191919;
+    max-width: 90%;
+    margin-top: 20px;
+    font-family: norms-bold;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    display: block;
+}
+
+.store-about{
+    margin-right: 10px;
+    text-align: left;
+    color: #191919;
+    font-family: norms-medium;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    letter-spacing: 0.01px;
+    display: block;
+    margin: 0;
+    padding:  0;
+}
+
+.store-btn-main{
+    margin-top: 20px;
+
+}
+
+.store-btn-main a{
+    position: relative;
+    background-color: #eb1700;
+    text-decoration: none;
+    max-width: 100%;
+    min-height: 32px;
+    border-radius: 9999px;
+    border: none;
+    display: inline-flex;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: flex-start;
+    -webkit-box-pack: start;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 1px  #19191900;
+    color: #ffff;
+}
+
+.store-btn-container{
+    display: block;
+    flex-grow: 1;
+    max-width: 100%;
+    -webkit-box-flex: 1;
+    opacity: 1;
+    padding: 0 12px;
+}
+
+.store-btn-text-span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+}
+
+.store-btn-text-main{
+    display: flex;
+    flex-grow: 2;
+    justify-content: center;
+    -webkit-box-pack: center;
+    -webkit-box-flex: 2;
+    min-width: 0px;
+}
+
+.store-btn-text{
+    width: 100%;
+}
+
 /* Mobile Responsive */
 
 @media screen and (min-width:425px) {
