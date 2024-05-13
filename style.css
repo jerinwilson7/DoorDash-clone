@@ -536,7 +536,7 @@ header {
     -webkit-box-pack: center;
 }
 
-.span-text span{
+.span-text span {
     width: 100%;
     color: white;
     font-family: norms-bold;
@@ -554,15 +554,155 @@ header {
     padding: 0px;
 }
 
-.crave-section{
+.crave-section {
     margin-bottom: -300px;
 }
 
-.dash-pass{
+.dash-pass {
     background-color: #fef1ee;
     padding-top: 320px;
 }
 
+
+/* grocery-section styles */
+
+.grocery-container {
+    background: url(images/grocery.png) center center / cover;
+    position: relative;
+    height: 350px;
+}
+
+.grocery-background-div {
+    background-color: rgba(30, 30, 30, 0.6);
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+    text-align: center;
+    -webkit-box-pack: center;
+}
+
+.grocery-contents-container {
+    margin-top: auto;
+    margin-bottom: auto;
+    max-width: 550px;
+    align-items: center;
+    -webkit-box-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.grocery-contents-container h2 {
+    text-align: center;
+    color: white;
+    filter: drop-shadow(rgba(0, 0, 0, 0.2) 0px 2px 8px);
+    max-width: 90%;
+    margin-top: 20px;
+    font-family: norms-bold;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.01px;
+
+}
+
+.grocery-subtext {
+    color: white;
+    text-align: center;
+    filter: drop-shadow(rgba(0, 0, 0, 0.2) 0px 2px 8px);
+    margin-top: 10px;
+    font-family: norms-bold;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.01px;
+
+}
+
+.grocery-about {
+    color: white;
+    filter: drop-shadow(rgba(0, 0, 0, 0.2) 0px 2px 8px);
+    text-align: center;
+    margin-top: 10px;
+    font-family: norms-medium;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.01px;
+}
+
+.grocery-btn {
+    margin-top: 20px;
+
+}
+
+.grocery-btn a {
+    position: relative;
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: inline-flex;
+    min-height: 32px;
+    width: auto;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: flex-start;
+    -webkit-box-pack: start;
+    border-radius: 9999px;
+    background-color: #eb1700;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    box-shadow: inset 0 0 0 1px #19191900;
+    color: white;
+
+
+}
+
+.grocery-btn-span-container {
+    display: block;
+    -webkit-box-flex: 1;
+    max-width: 100%;
+    flex-grow: 1;
+    opacity: 1;
+    padding: 0px 12px;
+}
+
+.grocery-btn-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.grocery-btn-text {
+    flex-grow: 2;
+    justify-content: center;
+    display: flex;
+    -webkit-box-flex: 2;
+    min-width: 0px;
+    -webkit-box-pack: center;
+}
+
+.grocery-btn-btn {
+    width: 100%;
+    color: white;
+    font-family: norms-bold;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01px;
+    text-align: center;
+    text-overflow: ellipsis;
+    display: block;
+    white-space: nowrap;
+}
 
 /* Mobile Responsive */
 
@@ -699,8 +839,8 @@ header {
         margin: 32px 0;
     }
 
-    
-     
+
+
 
     .dasher-img-container {
         margin-right: 64px;
@@ -711,9 +851,9 @@ header {
         width: 124px;
     }
 
-  
 
-    .delivery-pass{
+
+    .delivery-pass {
         flex-direction: row-reverse;
         justify-content: center;
         margin-bottom: -60px;
@@ -722,44 +862,44 @@ header {
         /* max-width: 1184px; */
     }
 
-    .delivery-pass-desc{
-            max-width: 400px;
-            margin-top: auto;
-            margin-bottom: auto;
+    .delivery-pass-desc {
+        max-width: 400px;
+        margin-top: auto;
+        margin-bottom: auto;
     }
 
-    .delivery-pass-desc h2{
+    .delivery-pass-desc h2 {
         font-size: 40px;
         line-height: 40px;
 
     }
 
-    .crave-subtext{
+    .crave-subtext {
         margin-top: 20px;
         font-size: 20px;
         line-height: 24px;
 
     }
 
-    .delivery-pass-about{
+    .delivery-pass-about {
         font-size: 16px;
         line-height: 22px;
     }
 
-    .dash-pass-about{
+    .dash-pass-about {
         margin-top: 20px;
 
     }
 
-    .delivery-pass-btn{
+    .delivery-pass-btn {
         margin-top: 30px;
     }
 
-    .delivery-pass-btn a{
+    .delivery-pass-btn a {
         min-height: 40px;
     }
 
-    .span-text span{
+    .span-text span {
         font-size: 16px;
         line-height: 22px;
     }
@@ -782,7 +922,7 @@ header {
         max-width: 695px;
     }
 
-    .dash-pass-img{
+    .dash-pass-img {
         max-width: 716px;
     }
 
@@ -792,13 +932,45 @@ header {
         object-fit: cover;
     }
 
-    .dash-pass{
+    .dash-pass {
         padding-top: 80px;
         flex-direction: row;
-        -webkit-box-pack: center;   
-     }
+        -webkit-box-pack: center;
+    }
 
- 
+    .grocery-container {
+        height: 600px;
+        margin-top: 62px;
+    }
+
+    .grocery-contents-container h2 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .grocery-subtext{
+        margin-top: 20px;
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .grocery-about{
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .grocery-btn{
+        margin-top: 30px;
+    }
+
+    .grocer-btn a{
+        min-height: 40px;
+    }
+
+    .grocery-btn-btn{
+        font-size: 16px;
+        line-height: 22px;
+    }
 
 }
 
