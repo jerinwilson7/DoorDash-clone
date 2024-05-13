@@ -246,12 +246,15 @@ header{
 }
 
 .playstore-container{
-    margin-top: 4px;
     line-height: 22px;
 }
 
+.playstore-container img{
+    margin-bottom: 2px;
+}
+
 .playstore-container h3{
-    font-family: norms-bold;
+    font-family: norms-medium;
     font-size: 14px;
     font-weight: 500;
     color: #767676;
@@ -262,6 +265,7 @@ header{
     font-family: norms-bold;
     margin-bottom: 4px;
     margin-top: -3px;
+    letter-spacing:-0.04ch;
 }
 
 .get-app-btn{
@@ -292,6 +296,233 @@ header{
     transform: translateY(7px);
 
 }
+
+.service-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.service-section{
+    margin: 40px 0;
+    padding: 8px;
+    /* max-width: 768px; */
+
+}
+
+.service-section-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.dasher-experiance{
+    display: flex;
+    padding: 16px;
+    width: 100%;
+    min-width: 360px;
+}
+
+.dasher-img-container{
+    margin-right: 32px;
+}
+
+.dasher-img-container img{
+    height: 88px;
+    width: 88px;
+}
+
+.dasher-desc{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 250px;
+}
+
+.dasher-desc h2{
+    font-family: norms-bold;
+    color: #191919ff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.1px;
+    text-decoration: none;
+    text-transform: none;
+    text-align: left;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+
+.dasher-desc h3{
+    font-family: norms-medium;
+    font-size: 14px;
+    color: #191919ff;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.1px;
+}
+
+.dasher-btn{
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.dasher-btn p{
+    color: #eb1700;
+    font-family: norms-bold;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01px;
+    display: block;
+}
+.dasher-btn img{
+    margin-left: 4px;
+}
+
+.doordash-main-container{
+    width: 100%;
+}
+
+/* .delivery-container{
+    
+} */
+
+.delivery-section-div{
+    position: relative;
+    height: 890px;
+}
+
+.crave-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    min-width: 90%;
+    justify-content: center;
+    align-items: center;
+}
+
+.crave-img{
+    width: 100%;
+    height: 180px;
+}
+
+.crave-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.crave-img-desktop{
+    display: none;
+}
+
+.crave-desc{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-width: 400px;
+}
+
+.crave-desc h2{
+    max-width: 90%;
+    margin-top: 20px;
+    color: #191919;
+    font-family: norms-bold;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.01px;
+
+}
+
+.crave-desc h4{
+    margin-top: 10px;
+    color: #191919;
+    font-family: norms-bold;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.01px;
+
+}
+
+.crave-desc span{
+    margin-top: 10px;
+    color: #191919;
+    font-family: norms-medium;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.01px;
+}
+
+.find-restaurants-btn{
+    margin-top: 20px;
+    width: fit-content;
+    padding: 2px 15px;
+    background: #eb1700;
+    color: white;
+    height: 32px;
+    border: 1px solid #eb1700;
+    border-radius: 15px;
+}
+
+.find-restaurants-btn p{
+    display: flex;
+    justify-content: center;
+    margin-top: 4px;
+    font-family: norms-bold;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.overlay{
+    position: absolute;
+    background-color: #fef1ee;
+    bottom: 0;
+    width: 100%;
+    height: 731px;
+    z-index: -1;
+}
+/* Mobile Responsive */
+
+@media screen and (min-width:425px){
+    .restaurant-desc h2{
+        margin: 0 auto;
+        max-width: 350px;
+    }
+
+    .restaurants-near-container{
+        transform: translateY(161px);
+    }
+
+    .restaurants-search-container{
+        margin-left: auto;
+        margin-right: auto;
+        transform: translate(0px ,24px);
+    }
+
+    .login-contianer{
+        margin-left: auto;
+        margin-right: auto;
+        transform: translateX(0px);
+    }
+
+    .dasher-experiance{
+        transform: translate(4px,1px);
+    }
+}
+
+
+
+
 /* Tablet Responsive */
 
 @media screen and (min-width: 768px){
@@ -391,6 +622,88 @@ br{
     display: none;
 }
 
+.service-section{
+    margin: 32px 0;
+}
+
+.dasher-img-container{
+    margin-right: 64px;
+}
+
+.dasher-img-container img{
+    height: 124px;
+    width: 124px;
+}
+
+.delivery-section-div{
+    height: 1090px;
+}
+
+.overlay{
+    height: 605px;
+}
+
+.crave-container{
+    display: flex;
+    flex-direction: row-reverse;
+    column-gap: 60px;
+}
+
+.second{
+    display: flex;
+    flex-direction: row;
+    column-gap: 60px;
+    padding: 25px 20px 20px;
+}
+
+.crave-img{
+    display: none;
+}
+
+.crave-img-desktop{
+    display: block;
+    width: 100%;
+    height: 500px;
+}
+
+.crave-img-desktop img{
+    max-width: 520px;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+/* .crave-desc{
+    transform: translateY(97px);
+} */
+
+.crave-desc h2{
+    width: 360px;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: -0.0568px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.crave-desc h4{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.crave-desc span{
+    font-size: 16px;
+}
+
+.crave-desc p{
+    font-size: 16px;
+}
+
+
+.find-restaurants-btn{
+    margin: 32px 0 0 0;
+}
+
 }
 
 /* Laptop view */
@@ -398,11 +711,12 @@ br{
 @media screen and (min-width: 1024px){
 
     .logo-text-container{
-        column-gap: 24px;
+        column-gap: 12px;
     }
 
     .logo img{
         height: 24px;
+        width: 42px;
     }
 
     .logo-text img{
@@ -437,7 +751,7 @@ br{
         height: 32px;
         width: 203.75px;
         white-space: nowrap;
-        transform: translateX(100px);
+        /* transform: translateX(100px); */
 
     }
 
@@ -447,11 +761,15 @@ br{
         font-family: norms-bold;
         font-size: 14px;
     }
+
+    .crave-desc h2{
+        max-width: 360px;
+    }
 }
 
 /* Desktop */
 
-@media screen and (min-width:1440px){
+@media screen and (min-width:1184px){
     .enter-btn-div{
         display: none;
     }
@@ -467,5 +785,61 @@ br{
 
     .enter-btn-div-white{
         height: 20px;
+    }
+
+    .service-section{
+        margin: 96px 0 ;
+        max-width: 1184px;
+
+    }
+
+    .service-section-container{
+        flex-direction: row;
+    }
+
+    .dasher-experiance{
+        flex-flow: column;
+        margin-top: 12px;
+    }
+
+    .dasher-img-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dasher-img-container img{
+        height: 154px;
+        width: 154px;
+    }
+
+    .dasher-desc{
+        min-height: 160px;
+    }
+
+    .dasher-desc h2{
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .dasher-desc h3{
+        margin-top: 8px !important;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .dasher-btn{
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .dasher-btn p{
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 22px;
     }
 }
