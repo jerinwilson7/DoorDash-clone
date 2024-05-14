@@ -855,6 +855,10 @@ header {
     width: 100%;
 }
 
+.package-section-container::-webkit-scrollbar{
+  display: none;
+}
+
 .package-desktop{
     display: none;
 }
@@ -924,6 +928,112 @@ header {
     letter-spacing: -0.01px;
 
 }
+
+
+/* title-Dasher business */
+
+.dasher-business-container{
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  width: 100%;
+  padding: 40px 20px 20px;
+}
+
+.dasher-business-container span{
+  color: #191919;
+  font-family: norms-bold;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -0.01px;
+  max-width: 300px;
+  text-align: center;
+}
+
+
+/* Dasher partner */
+
+.dasher-partner{
+  width: 100%;
+}
+
+.dash-part-desktop{
+  display: none;
+}
+
+
+.dasher-partner-container{
+  display: flex;
+    flex-direction: column;
+    padding: 20px;
+    min-width: 90%;
+    -webkit-box-align: center;
+    align-items: center;
+  margin-bottom: -300px;
+}
+
+.dasher-partner-sec{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.dasher-partner-img{
+  width: 100%;
+}
+
+.dash-part-mobile img{
+  height: 180px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.dasher-partner-contents-container{
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.dasher-partner-contents-container h2{
+  max-width: 90%;
+  margin-top: 20px;
+  color: #191919;
+  font-family: norms-bold;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.dashpart-about{
+  margin-top: 10px;
+  color: #191919;
+  font-family: norms-medium;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+
+}
+
+.partner-sec{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 90%;
+  padding: 20px;
+  padding-top: 320px;
+  background-color: #fef1ee;
+}
+
+.partner-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+
 /* Mobile Responsive */
 
 @media screen and (min-width: 425px) {
@@ -1323,6 +1433,82 @@ header {
     line-height: 20px;
   }
 
+  /* title-dasher-tab */
+
+  .dasher-business-container{
+    padding: 60px 20px 40px;
+  }
+  
+  .dasher-business-container span{
+    font-size: 32px;
+    line-height: 40px;
+    min-width: 500px;
+  }
+
+  /* Dasher partner business tab */
+
+  .dash-part-mobile{
+    display: none;
+  }
+
+  .dash-part-desktop{
+    display: block;
+  }
+
+  .dasher-partner-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: -60px;
+  }
+
+  .dasher-partner-sec{
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: space-between;
+    gap: 60px;
+    max-width: 1184px;
+  }
+  
+  .dasher-partner-img img{
+    height: 500px;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .dasher-partner-contents-container{
+    max-width: 400px;
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+
+  .dasher-partner-contents-container h2{
+    max-width: 90%;
+    margin-top: 20px;
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .dashpart-about{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .partner-sec{
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 80px;
+    background: #fef1ee;
+    }
+
+    .partner-section{
+      display: flex;
+      flex-direction: row;
+      align-content: space-between;
+      gap: 60px;
+      max-width: 1184px;
+    }
 }
 
 /* Laptop view */
