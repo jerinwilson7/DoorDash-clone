@@ -1293,6 +1293,7 @@ footer{
   /* flex: 1 1 0%; */
   justify-content: flex-end;
   overflow: hidden;
+  transform: translatex(1px);
 
 }
 
@@ -1439,6 +1440,7 @@ footer{
 
 .footer-bottom {
   padding: 32px 0px;
+  align-items: center;
 }
 
 .social-media {
@@ -1449,7 +1451,7 @@ footer{
 
 .language-bar {
   position: relative;
-  padding: 12px;
+  /* padding: 12px; */
   display: flex;
   justify-content: center;
 }
@@ -1491,7 +1493,7 @@ footer{
 }
 
 .footer-list {
-  margin: 12px 0px 0px;
+  margin: 7px 0px 0px;
 }
 
 .list1 {
@@ -2066,6 +2068,10 @@ footer{
     .list1-tab {
       display: flex;
       column-gap: 9px;
+    }
+
+    .list1-tab p{
+      margin-left: 7px;
     }
   
     .list2-tab {
